@@ -22,7 +22,7 @@ public class SpringEmailApplication implements CommandLineRunner
 
         System.out.println("Sending Email...");
 
-        emailSender.send("to.email@gmail.com", "Hello", "Hello Subject");
+        emailSender.send("to.email@gmail.com", "Hello Text", "Hello Subject");
 
         System.out.println("Done");
 
